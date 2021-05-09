@@ -6,3 +6,5 @@ Used a siamese network to learn about similarities and differences between diffe
 - The single shot method implementation here is a bit different from the repo, to understand the concept you could refer the medium article mentioned above
 - I used graph plots as the evaluating metric beacause i didn't find much merit in describing it in a single number beacuse  we are depicitng similarities and differences and not how exactly are 2 different images are different and also i could not find a viable metric(like mean/median/precision) to describe the degree of similarity.
 - The above point is somewhat hazy, siamese networks use the single shoy learning method to determine the similitude of differences of all the images in a batch so the number can be described best when it's amongst the batches
+
+Note that as of now github doesn't render notebooks properly so you can take the links of these notebooks(just open the notebooks above and copy the link in the address bar) and paste it in [nbviewer](https://nbviewer.jupyter.org/) searchbar
